@@ -1,6 +1,7 @@
 package mk.finki.ukim.spring_boot_learning.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import org.springframework.lang.NonNull;
 
 import java.util.UUID;
 
@@ -21,4 +22,6 @@ public class Person {
     public String getName() {
         return name;
     }
+
+
 }
